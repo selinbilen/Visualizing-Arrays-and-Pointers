@@ -1,4 +1,4 @@
-# Lab05 - Visualizing Arrays and Pointers
+# Visualizing Arrays and Pointers
 
 We learned about arrays, and how arrays are laid out in memory in row major order, and we also learned about pointers to pointers, which look a lot like two dimensional arrays, and can be used like two dimensional arrays, but are implemented very differently under the covers. Today's lab is an attempt to demonstrate these differences, and to graphically portray how memory is organized for various different structures.
 
@@ -69,17 +69,3 @@ There are five different questions I would like to get answered about these vari
 5. Is `plistPlist` in row major order? If so, `(float *)&(plistPlist[row][col])` should be one greater than the previous row and column in row major (odometer) order.
 
 Your program should print out the answers to these five questions. I have done the first two for you, so all you need to do is compute the answers to questions 3, 4, and 5.
-
-## Submitting your Lab
-
-When you are finished debugging your code, make sure to commit and push your repository using git. Cut and paste the resulting hashCode into the Lab 05 submission area in the Lab Submissions folder under Content for CS-220 in myCourses. You may submit as many times as you wish up to the deadline of midnight tonight (Feb. 26), only the last submission will be graded.
-
-## Grading your Submission
-
-If you turn in your code late, 4 points will be deducted, unless you have received an extension from the professor. Any submissions after Thursday will receive a zero grade.
-
-Missing or lack of attempt to solve the problem will result in a zero grade.
-
-If your code does not compile, or has an obvious bug, you will get a 3 point deduction for each bug. Bugs include things like not invoking the format and print functions for a representative set of variables, not answering the five questions, or lots of extra debug prints occuring in your output. 
-
-We will run `./showArray` and two points will be deducted for each incorrect response.
